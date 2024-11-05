@@ -1,0 +1,24 @@
+<ion-header class="homeheader" [translucent]="false"> 
+  <ion-img id="logo" src="assets/img/logo2.png" alt="Logo de Duoc UC"></ion-img>
+  </ion-header>
+  <ion-toolbar color="blanco">
+    <ion-title class="titulo ion-text-center">Bienvenido alumno Cristian Camus</ion-title>
+  </ion-toolbar>
+  <ion-toolbar color="azul" class="segmento-inferior">
+    <ion-segment (ionChange)="segmentChanged($event)">
+      <ion-segment-button value="historial-asistencia">
+        <ion-icon name="book-outline"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="camara-alumno">
+        <ion-icon name="camera-outline"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="alumno-perfil">
+        <ion-icon name="school-outline"></ion-icon>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
+
+<ion-content>
+  <ion-router-outlet></ion-router-outlet>
+</ion-content>

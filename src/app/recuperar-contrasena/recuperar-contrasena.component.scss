@@ -1,0 +1,57 @@
+ion-content {
+  display: flex; // Usa flexbox para alinear elementos
+  justify-content: center; // Centra horizontalmente
+  align-items: center; // Centra verticalmente
+}
+
+ion-card {
+  max-width: 555px; // Ancho máximo de la tarjeta
+  width: 100%; // Asegúrate de que use todo el ancho disponible
+  margin: 0; // Elimina márgenes para evitar el desplazamiento
+  border-radius: 15px; // Bordes redondeados
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); // Sombra
+  justify-content: center; // Centra horizontalmente
+  align-items: center; // Centra verticalmente
+}
+
+ion-button {
+  margin-top: 20px; // Margen superior del botón
+}
+
+.recuperarheader {
+  background-color: var(--ion-color-blanco); // Color de fondo
+  padding: 10px; // Espaciado interno
+}
+
+.titulo {
+  color: var(--ion-color-texto); // Color del texto
+  font-family: "Lucida Console", Courier, monospace; // Fuente
+}
+
+.fuente {
+  font-family: "Lucida Console", Courier, monospace; // Fuente
+  font-weight: bold; // Negrita
+}
+
+.card-recuperar {
+  margin: 20px; // Espacio alrededor de la tarjeta
+}
+
+ion-card-title h1 {
+  font-size: 24px; // Tamaño de fuente grande
+  color: white; // Color del texto
+}
+
+ion-item {
+  margin-bottom: 15px; // Espaciado inferior entre los elementos
+}
+
+.boton {
+  --background: #3880ff; // Color de fondo personalizado
+  --color: white; // Color del texto
+  border-radius: 10px; // Bordes redondeados en el botón
+  padding: 12px; // Espaciado interno
+}
+
+
+
